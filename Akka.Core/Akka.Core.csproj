@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Akka.Core</AssemblyName>
+    <RootNamespace>Akka.Core</RootNamespace>
+  </PropertyGroup>
+
+</Project>

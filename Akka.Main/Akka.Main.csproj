@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Akka.Main</RootNamespace>
+    <AssemblyName>Akka.Main</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Akka.Core\Akka.Core.csproj" />
+    <ProjectReference Include="..\Akka.Models\Akka.Models.csproj" />
+  </ItemGroup>
+
+</Project>

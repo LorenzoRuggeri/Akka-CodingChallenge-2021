@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Main", "Akka.Main\Akka.Main.csproj", "{98E2335A-408F-4DD9-8FE5-5672C534D490}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D76CABF6-F927-4639-9AD2-1B53A374A53D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.docx = README.docx
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Core", "Akka.Core\Akka.Core.csproj", "{78DD143A-B143-479F-880C-9993129110D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Models", "Akka.Models\Akka.Models.csproj", "{68BD5187-6294-42C5-9D9B-D0EA48ACCAC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Main.Tests", "Akka.Main.Tests\Akka.Main.Tests.csproj", "{729EAE02-C34A-4612-AEEE-7F7DC6D7A21A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98E2335A-408F-4DD9-8FE5-5672C534D490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E2335A-408F-4DD9-8FE5-5672C534D490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E2335A-408F-4DD9-8FE5-5672C534D490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E2335A-408F-4DD9-8FE5-5672C534D490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DD143A-B143-479F-880C-9993129110D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DD143A-B143-479F-880C-9993129110D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DD143A-B143-479F-880C-9993129110D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DD143A-B143-479F-880C-9993129110D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68BD5187-6294-42C5-9D9B-D0EA48ACCAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68BD5187-6294-42C5-9D9B-D0EA48ACCAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68BD5187-6294-42C5-9D9B-D0EA48ACCAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68BD5187-6294-42C5-9D9B-D0EA48ACCAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729EAE02-C34A-4612-AEEE-7F7DC6D7A21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729EAE02-C34A-4612-AEEE-7F7DC6D7A21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729EAE02-C34A-4612-AEEE-7F7DC6D7A21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729EAE02-C34A-4612-AEEE-7F7DC6D7A21A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E63027A-629D-4766-BB1D-E2C83E9628D2}
+	EndGlobalSection
+EndGlobal
